@@ -1,31 +1,36 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int nums;
-	int nums1;
-	int nums2;
+	int n;
+	int i;
+	int h;
 
-	for (nums = '0'; nums <= '7'; nums++)
+	for (h = 0 ; h != 8 ; h++)
 	{
-		for (nums1 = nums + 1; nums1 <= '9'; nums1++)
+		for (n = h + 1 ; n != 9 ; n++)
 		{
-for (nums2 = nums1 + 1; nums2 <= '9'; nums2++)
-{
-putchar(nums);
-putchar(nums1);
-putchar(nums2);
-if (nums == '7' && nums1 == '8' && nums2 == '9')
-	break;
-putchar(',');
-putchar(' ');
+			i = n + 1;
+			do {
+				putchar('0' + h);
+				putchar('0' + n);
+				putchar('0' + i);
+				if (h != 7)
+				{
+					putchar(',');
+					putchar(32);
+				}
+				i++;
+			} while (i != 10);
+		}
+	}
+	putchar('\n');
+	return (0);
 }
-}
-}
-putchar('\n');
-return (0);
-}
+
