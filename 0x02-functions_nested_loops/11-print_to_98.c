@@ -3,7 +3,8 @@
 
 /**
  * print_to_98 - count the natural numbers from n to 98.
- * separate with a comma, followed by space and number should be printed accordingly
+ * separate with a comma, followed
+ * by space and number should be printed accordingly
  *
  * @n: input
  */
