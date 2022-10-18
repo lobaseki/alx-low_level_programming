@@ -1,8 +1,7 @@
 #include"main.h"
 
 /**
- * main - Entry point
- * written by Lulu
+ * main - print putchar
  * Return: 0
  */
 
