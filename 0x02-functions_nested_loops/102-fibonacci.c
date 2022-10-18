@@ -1,6 +1,5 @@
 #include"main.h"
 #include <stdio.h>
-
 /**
  *  main - Entry point
  *  print_fib_x50 - prints the first 50 Fibonacci numbers,
@@ -8,7 +7,6 @@
  *
  *  Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int count;
@@ -29,4 +27,4 @@ int main(void)
 	}
 
 	return (0);
-} 
+}
