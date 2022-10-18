@@ -1,8 +1,9 @@
 #include"main.h"
+
 /**
  * main - Entry point
- *
- * Return: Always 0 (Success)
+ * written by Lulu
+ * Return: 0
  */
 
 int main(void)
