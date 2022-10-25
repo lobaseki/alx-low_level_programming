@@ -1,18 +1,20 @@
 #include "main.h"
 
 /**
- * print_numbers - Function
+ * print_most_numbers - Function
  *
+ * Return: Always 0 (Success)
  */
 
 void print_most_numbers(void)
 {
 	int n;
 
-	for (n = 0; n <= 9; n++)
+	for (num = 0; num <= 9; ++num)
 	{
-		if ((n != 2) && (n != 4))
-			_putchar(n + '0');
+		if (num == 2 || num == 4)
+			continue;
+		_putchar(num + 48);
 	}
 	_putchar('\n');
 }
