@@ -1,12 +1,19 @@
 #include "main.h"
 
 /**
- * mul - check for lowercase character.
- * @a: entero recibo por main.
- * @b: entero recibido por main
- * Return: 1 if alphabet c is uppercase
+ * print_numbers - Function
+ *
+ * Return: 0
  */
-int mul(int a, int b)
+
+void print_numbers(void)
 {
-	return (a * b);
+	int n;
+
+	for (n = 0; n <= 9; n++)
+	{
+		_putchar(n + '0');
+	}
+	_putchar('\n');
+
 }
